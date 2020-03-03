@@ -1,0 +1,297 @@
+html{
+    font-size: 62.5%
+}
+
+*, *:before,*:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+   
+}
+
+header{
+    background-color: rgb(0,62,142);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+}
+
+nav{
+    margin-top: 1rem;
+}
+
+nav a{
+    color: white;
+    text-decoration: none !important;
+    padding: 1rem;
+    font-size: 1.7rem !important;   
+}
+
+nav a:hover{
+    color: rgb(11,123,20);
+}
+
+.img-logo{
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    min-height: 600px;
+}
+
+main{
+    height: 90vh
+}
+
+.content-centered{
+    max-width: 80rem;
+    margin-top: 5px;
+}
+
+.container{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 120rem;
+}
+
+/**Global **/
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    font-size: 3.4rem;
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+}
+
+h3{
+    font-size: 3rem;
+    text-align: center;
+}
+
+h4{
+    font-size: 2.6rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.fw-300{
+    font-weight: 300;
+}
+.content-centered{
+    max-width: 80rem;
+    margin-top: 5px;
+}
+
+.container{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 120rem;
+}
+
+
+/** products **/
+.icon-us{
+    display: flex;
+    justify-content: space-between;
+}
+
+.products-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product{
+    border: 1px solid #b5b5b5;
+    background-color: #f5f5f5;
+    flex-basis: calc(30% - 10px);
+    margin-bottom: 20px;
+}
+
+.product-content{
+    margin: 0px;
+    padding: 20px;
+}
+
+.price{
+    color: #71b100;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+.icons-characteristics{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    max-width: 500px;
+}
+
+.icons-characteristics li{
+    display: flex;
+}
+
+.icons-characteristics li img{
+    margin-right: 20px;
+}
+.text-center{
+    text-align: center;
+}
+
+.fw-300{
+    font-weight: 300;
+}
+/**About**/
+
+@media (min-width:768px){
+    .content-about{
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+        column-gap: 2rem;
+    }
+}
+
+
+.about-text blockquote{
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 0;
+    padding: 1rem 0 1.5rem 0 ;
+
+}
+/*Product End*/
+
+/** button **/
+
+.button{
+    color: #ffffff;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 30px;
+    border: none;
+    display: block;
+    flex: 100%;
+    text-align: center;
+}
+
+.button-green{
+    background-color: #71B100;
+}
+
+.button-yellow{
+    background-color: #e08709;
+}
+
+.info{
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.footer{
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+}
+
+
+.register{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.register-style{
+    border: 1px solid black;
+    height: 500px;
+    width: 30rem;
+    margin-top: 2rem;
+    padding: 2rem;
+    text-align: center;
+    background-color: rgb(0,62,142);
+    color: white;
+}
+
+.results-style{
+    border: 1px solid black;
+    height: 150px;
+    width: 55rem;
+    margin-top: 2rem;
+    padding: 3rem;
+    text-align: center;
+    background-color: rgb(0,62,142);
+    color: white;
+}
+
+.table-style{
+    padding: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.selected{
+    background-color: red;
+}
+
+.welcome-text{
+    position: absolute;
+    width: 30rem;
+    height: 600px;
+    margin: 25% 40%;
+    text-align: center;
+}
+.welcome-text h1{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.welcome-text a{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+.welcome-text a:hover{
+    background: #fff;
+    color: #333;
+}
+
+.packages-background{
+    background-color: rgb(202, 218, 238);
+}
+
+.contact-img{
+    background-image: url(pets.jpg);
+    background-position: center center;
+    background-size: cover;
+    
+    height: 750px;
+}
